@@ -29,7 +29,7 @@ function FUNCTION_NAME(queryParamID, key) {
 
 ## 2) Set Trigger
 a) Go to Edit > Set Trigger
-![Screenshot](https://github.com/edulecca/googlesheetapicall/blob/master/activetrigger.png){:height="500px" width="200px"}
+![Screenshot](https://github.com/edulecca/googlesheetapicall/blob/master/activetrigger.png | width=200)
 
 b) Add New Trigger
 ![Screenshot](https://github.com/edulecca/googlesheetapicall/blob/master/activador.png)

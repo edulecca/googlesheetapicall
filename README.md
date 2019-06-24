@@ -8,7 +8,7 @@ Have to implement on 2 steps
 
 ## 1) Set Function
 a) Tools > Script Editor
-![Screenshot](https://github.com/edulecca/googlesheetapicall/blob/master/scriptEditor.png)
+<img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/scriptEditor.png">
 
 b) paste the following script 
 
@@ -29,10 +29,10 @@ function FUNCTION_NAME(queryParamID, key) {
 
 ## 2) Set Trigger
 a) Go to Edit > Set Trigger
-![Screenshot](https://github.com/edulecca/googlesheetapicall/blob/master/activetrigger.png | width=200)
+<img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/activador.png">
 
 b) Add New Trigger
-![Screenshot](https://github.com/edulecca/googlesheetapicall/blob/master/activador.png)
+<img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/activador.png">
 
 c) Set the refresh params as convenient (i.e. as open document)
 

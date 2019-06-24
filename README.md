@@ -6,11 +6,12 @@ Have to implement on 2 steps
 2) Set a trigger to the function to refresh it's value
 3) Implement on the Sheet
 
-##1) Set Function
+## 1) Set Function
 a) Tools > Script Editor
 ![alt text](https://github.com/edulecca/googlesheetapicall/blob/master/scriptEditor.png)
 
-b) paste the following scritp
+b) paste the following script 
+
 ```
 /**
  * @param String queryParamID get the cell´s value and pass by value to the function
@@ -26,7 +27,7 @@ function FUNCTION_NAME(queryParamID, key) {
 }
 ```
 
-##2) Set Trigger
+## 2) Set Trigger
 a) Go to Edit > Set Trigger
 ![alt text](https://github.com/edulecca/googlesheetapicall/blob/master/activetrigger.png)
 
@@ -35,6 +36,8 @@ b) Add New Trigger
 
 c) Set the refresh params as convenient (i.e. as open document)
 
-##3) Implement Function
+## 3) Implement Function
+
 a) set the function as **=FUNCTION_NAME(A2; 'status')**
+
 b) function could be easily dragged to get dynamcally the Cell ID

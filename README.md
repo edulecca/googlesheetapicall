@@ -43,6 +43,7 @@ c) Set the refresh params as convenient (i.e. as open document)
 ## 3) Implement Function
 
 a) set the function as **=FUNCTION_NAME(A2; 'status')**
+
 <img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/funct.png">
 
 b) function could be easily dragged to get dynamcally the Cell ID

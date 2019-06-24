@@ -7,11 +7,15 @@ Have to implement on 2 steps
 3) Implement on the Sheet
 
 ## 1) Set Function
+
 a) Tools > Script Editor
+
 <img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/scriptEditor.png">
 
 b) paste the following script 
-<img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/script.png">
+
+<img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/script.jpg">
+
 ```
 /**
  * @param String queryParamID get the cell´s value and pass by value to the function

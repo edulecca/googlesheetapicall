@@ -11,7 +11,7 @@ a) Tools > Script Editor
 <img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/scriptEditor.png">
 
 b) paste the following script 
-
+<img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/script.png">
 ```
 /**
  * @param String queryParamID get the cell´s value and pass by value to the function
@@ -29,7 +29,7 @@ function FUNCTION_NAME(queryParamID, key) {
 
 ## 2) Set Trigger
 a) Go to Edit > Set Trigger
-<img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/activador.png">
+<img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/activetrigger.png">
 
 b) Add New Trigger
 <img width="460" src="https://github.com/edulecca/googlesheetapicall/blob/master/activador.png">

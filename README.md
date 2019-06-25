@@ -27,8 +27,8 @@ function FUNCTION_NAME(queryParamID, key) {
     var response = UrlFetchApp.fetch(url);
     var data = response.getContentText();
     var json = JSON.parse(data);
+    return json[key];
   }
-  return json[key];
 }
 ```
 

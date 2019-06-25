@@ -22,12 +22,13 @@ b) paste the following script
  * @param String key, pass by value the key which json's value wants to be return
  */
 function FUNCTION_NAME(queryParamID, key) {
-  var url = "https://sampleurl.com/"+queryParamID;
-  var response = UrlFetchApp.fetch(url);
-  var data = response.getContentText();
-  var json = JSON.parse(data);
-
- return json[key];
+  if(queryParamID) {
+    var url = "https://sampleurl.com/"+queryParamID;
+    var response = UrlFetchApp.fetch(url);
+    var data = response.getContentText();
+    var json = JSON.parse(data);
+  }
+  return json[key];
 }
 ```
 
